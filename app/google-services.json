@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "846765439203",
+    "project_id": "raaaaaaaaavus",
+    "storage_bucket": "raaaaaaaaavus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846765439203:android:250bccac1dec8526766dd6",
+        "android_client_info": {
+          "package_name": "clement.guibert.ravus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuhOR6oI9WAIhoH4hlQBsCpcKSbc7iryI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

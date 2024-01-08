@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <!-- Ajoutez des boutons pour les fonctionnalités -->
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/buttonEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Événements"
+        android:layout_below="@id/buttonMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localisation"
+        android:layout_below="@id/buttonEvents"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commande"
+        android:layout_below="@id/buttonLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonOffers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offres"
+        android:layout_below="@id/buttonOrder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

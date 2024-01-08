@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="50dp">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nom d'utilisateur"/>
+
+<EditText
+    android:id="@+id/editTextPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:hint="Mot de passe" />
+
+<Button
+    android:id="@+id/buttonLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Se connecter" />
+
+    <Button
+        android:id="@+id/twitter_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Se connecter avec Twitter" />
+</LinearLayout>
